@@ -11,7 +11,7 @@ void solve()
    int n=sizeof(arr)/sizeof(int);
    
    //sort according to compare function
-   sort(arr,arr+n,compare);
+   sort(arr,arr+n,compare); 
 
    for(int i=0;i<n;i++)
    cout<<arr[i]<<" ";
